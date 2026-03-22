@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HALE / SIS INTERNAL NETWORK</title>
+  <meta name="description" content="Premium black-ops dossier interface for HALE." />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand-mark" href="#top" aria-label="Return to top">
+        <span class="brand-mark__sigil">SIS</span>
+        <span class="brand-mark__text">
+          <strong>HALE</strong>
+          <small>Secret Intelligence Service // Internal Network</small>
+        </span>
+      </a>
+
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="#briefing">Profile</a>
+        <a class="nav-link" href="#story">Story</a>
+        <a class="nav-link" href="#archive">Archive</a>
+      </nav>
+
+      <div class="status-cluster">
+        <span class="status-indicator"><span class="status-dot"></span>London Node Live</span>
+        <span class="time-badge" id="londonClock">LON 00:00:00</span>
+      </div>
+    </header>
+
+    <section class="hero reveal is-visible" id="top">
+      <span class="guide-left" aria-hidden="true"></span>
+      <span class="guide-right" aria-hidden="true"></span>
+
+      <div class="hero-inner">
+        <section class="prism-stage" id="heroStage" aria-label="HALE operational hero stage">
+          <canvas class="prism-canvas" id="canvas" aria-hidden="true"></canvas>
+
+          <div class="hero-overlay">
+            <div class="hero-grid">
+              <div class="hero-copy">
+                <div class="eyebrow-row">
+                  <span class="section-chip">Section 07</span>
+                  <span class="section-chip section-chip--muted">Deep Cover Asset</span>
+                  <span class="section-chip section-chip--muted">Black Site Access</span>
+                </div>
+
+                <p class="hero-pretitle">SEALED DOSSIER // CONTROLLED DISTRIBUTION</p>
+
+                <h1 class="hero-title" data-text="HALE">
+                  <span>HALE</span>
+                </h1>
+
+                <p class="hero-subtitle">SIS: Secret Intelligence Service</p>
+                <p class="hero-summary">
+                  Under deep-cover protocol, HALE operates between diplomacy, coercion, and precision intelligence.
+                  This node consolidates profile, behavioural markers, and controlled narrative fragments inside a
+                  single secure interface.
+                </p>
+
+                <div class="hero-actions">
+                  <a class="glass-button primary" href="#briefing">Profile</a>
+                  <a class="glass-button" href="#story">Story</a>
+                </div>
+
+                <ul class="micro-tags" aria-label="Operative tags">
+                  <li>Silent Entry</li>
+                  <li>Diplomatic Cover</li>
+                  <li>Cold-Read Analysis</li>
+                </ul>
+              </div>
+
+              <aside class="hero-dossier" aria-label="Operative snapshot">
+                <div class="hero-dossier__header">Operative Snapshot</div>
+                <div class="hero-dossier__row">
+                  <span>Codename</span>
+                  <strong>HALE</strong>
+                </div>
+                <div class="hero-dossier__row">
+                  <span>Clearance</span>
+                  <strong>BLACK / VII</strong>
+                </div>
+                <div class="hero-dossier__row">
+                  <span>Primary Theatre</span>
+                  <strong>London Cell</strong>
+                </div>
+                <div class="hero-dossier__row">
+                  <span>Operational State</span>
+                  <strong>Embedded</strong>
+                </div>
+                <p class="hero-dossier__body">
+                  Controlled surface. Minimal tells. High-trust infiltration profile with measured emotional bandwidth,
+                  deliberate ambiguity, and exceptional post-contact composure.
+                </p>
+              </aside>
+            </div>
+
+            <div class="intel-strip" aria-label="Operational metrics">
+              <div class="intel-metric">
+                <span class="metric-label">Clearance Tier</span>
+                <strong class="metric-value"><span class="metric-number" data-target="7" data-pad="2">00</span></strong>
+                <span class="metric-note">sealed access layers</span>
+              </div>
+              <div class="intel-metric">
+                <span class="metric-label">Mission Integrity</span>
+                <strong class="metric-value"><span class="metric-number" data-target="96" data-suffix="%">0%</span></strong>
+                <span class="metric-note">signal stability</span>
+              </div>
+              <div class="intel-metric">
+                <span class="metric-label">Cover Persistence</span>
+                <strong class="metric-value"><span class="metric-number" data-target="18" data-suffix=" mo">0 mo</span></strong>
+                <span class="metric-note">continuous embed</span>
+              </div>
+              <div class="intel-metric intel-metric--wide">
+                <span class="metric-label">Last Directive</span>
+                <strong class="metric-value metric-value--small">Maintain ambiguity. Preserve leverage.</strong>
+                <span class="metric-note">command relay // london</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section reveal" id="briefing">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Profile</p>
+          <h2 class="section-title">Executive dossier</h2>
+        </div>
+        <p class="section-copy">
+          Structured for quick reading, designed for atmosphere. The page now behaves like a premium profile portal rather
+          than a single static splash screen.
+        </p>
+      </div>
+
+      <div class="briefing-grid">
+        <article class="intel-card intel-card--feature">
+          <p class="card-kicker">Identity Layer</p>
+          <h3>Profile architecture built for myth, control, and presence.</h3>
+          <p>
+            HALE is presented as an asset shaped by restraint: immaculate surface discipline, strong scene control,
+            and a talent for making every exchange feel slightly incomplete.
+          </p>
+          <div class="detail-grid">
+            <div>
+              <span>Origin Cover</span>
+              <strong>Diplomatic Theatre</strong>
+            </div>
+            <div>
+              <span>Behaviour</span>
+              <strong>Low Signal / High Impact</strong>
+            </div>
+            <div>
+              <span>Primary Tool</span>
+              <strong>Controlled Presence</strong>
+            </div>
+            <div>
+              <span>Risk Profile</span>
+              <strong>Calculated</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="intel-card">
+          <p class="card-kicker">Behavioural Signature</p>
+          <div class="signal-list" aria-label="Signal chart">
+            <div class="signal-item">
+              <div class="signal-head"><span>Composure</span><strong>98</strong></div>
+              <div class="signal-bar"><span style="--value:98%"></span></div>
+            </div>
+            <div class="signal-item">
+              <div class="signal-head"><span>Social Masking</span><strong>91</strong></div>
+              <div class="signal-bar"><span style="--value:91%"></span></div>
+            </div>
+            <div class="signal-item">
+              <div class="signal-head"><span>Interrogative Read</span><strong>87</strong></div>
+              <div class="signal-bar"><span style="--value:87%"></span></div>
+            </div>
+            <div class="signal-item">
+              <div class="signal-head"><span>Controlled Threat</span><strong>84</strong></div>
+              <div class="signal-bar"><span style="--value:84%"></span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="intel-card">
+          <p class="card-kicker">Field Notes</p>
+          <ul class="bullet-stack">
+            <li>Maintains elegant social distance while appearing fully present.</li>
+            <li>High-value interactions trend toward silence rather than persuasion.</li>
+            <li>Most effective when the room is forced to react first.</li>
+            <li>Builds pressure with pacing, gaze, and deliberate incompletion.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="story">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Story</p>
+          <h2 class="section-title">Narrative fragments</h2>
+        </div>
+        <p class="section-copy">
+          Rather than dumping text, the story is presented as controlled fragments—editorial, cinematic, and easy to extend
+          into character episodes or dossiers later.
+        </p>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card">
+          <span class="story-card__index">01</span>
+          <h3>Embassy Winter</h3>
+          <p>
+            A room of polished smiles, sealed glasses, and practiced diplomacy. HALE does not dominate the space.
+            The space quietly reorganises itself around HALE instead.
+          </p>
+          <div class="story-card__meta">
+            <span>London</span>
+            <span>Night Access</span>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <span class="story-card__index">02</span>
+          <h3>Red Thread</h3>
+          <p>
+            Every operation leaves a residue: a delayed response, a misplaced certainty, a witness who cannot explain why
+            the encounter felt colder than it looked.
+          </p>
+          <div class="story-card__meta">
+            <span>Berlin</span>
+            <span>Signal Break</span>
+          </div>
+        </article>
+
+        <article class="story-card story-card--quote">
+          <span class="story-card__index">03</span>
+          <blockquote>
+            “The most dangerous operatives are not the loudest. They are the ones who leave the room quieter than they found it.”
+          </blockquote>
+          <div class="story-card__meta">
+            <span>Internal Memorandum</span>
+            <span>Restricted</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="archive">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Archive</p>
+          <h2 class="section-title">Controlled access layer</h2>
+        </div>
+        <p class="section-copy">
+          A final block that looks and feels like a premium intelligence console, ready for future profile tabs, lore entries,
+          relationship charts, or classified media.
+        </p>
+      </div>
+
+      <div class="archive-grid">
+        <article class="archive-console">
+          <div class="console-head">
+            <span>Encrypted relay</span>
+            <span>Node // 7A-LDN</span>
+          </div>
+          <div class="console-body">
+            <p>&gt; dossier://hale/entry/open</p>
+            <p>status: embedded / externally stable</p>
+            <p>signal: low-noise / high-yield</p>
+            <p>recommended protocol: observe before contact</p>
+            <p>narrative key: elegance masking coercion</p>
+            <p class="console-cursor">awaiting next directive</p>
+          </div>
+        </article>
+
+        <article class="archive-panel">
+          <p class="card-kicker">Expandable modules</p>
+          <div class="archive-list">
+            <div class="archive-item">
+              <span>Character relations</span>
+              <strong>Ready</strong>
+            </div>
+            <div class="archive-item">
+              <span>Story chapters</span>
+              <strong>Ready</strong>
+            </div>
+            <div class="archive-item">
+              <span>Visual gallery</span>
+              <strong>Ready</strong>
+            </div>
+            <div class="archive-item">
+              <span>Secure notices</span>
+              <strong>Ready</strong>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer-bar">
+      <span>HALE // SIS INTERNAL NETWORK</span>
+      <a class="footer-link" href="#top">Return to top</a>
+    </footer>
+  </main>
+
+  <script src="assets/js/vendor/instanced-mouse-effect.bundle.js"></script>
+  <script src="assets/js/app/main.js"></script>
+</body>
+</html>
