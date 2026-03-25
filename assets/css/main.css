@@ -327,7 +327,7 @@ a{
   margin:0;
   font-family:var(--display);
   font-size:clamp(5.4rem, 13vw, 10.6rem);
-  font-weight:600;
+  font-weight:800;
   line-height:.84;
   letter-spacing:.16em;
   text-transform:uppercase;
